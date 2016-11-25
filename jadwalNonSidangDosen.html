@@ -1,0 +1,91 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> Buat Jadwal Non-Sidang Dosen </title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/styleBuatSidang.css">
+<link rel="stylesheet" href="js/bootstrap.min.js">
+
+
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+	<div class="container-fluid">
+		<div class="navbar-header">
+     	 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      	</button>
+      	<a class="navbar-brand" href="#">SISidang</a>
+    	</div>
+
+    	  <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	        <li><a href="#">Tambah Peserta MKS</a></li>
+	        <li><a href="#"> Lihat Jadwal Sidang</a></li>
+	        <li><a href="#"> Buat Jadwal Sidang MKS</a></li>
+	        <li><a href="#"> Buat Jadwal Non-Sidang Dosen</a></li>
+	        <li><a href="#"> Lihat Daftar MKS</a></li>
+	      </ul>
+
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Action</a></li>
+	            <li><a href="#">Another action</a></li>
+	            <li><a href="#">Something else here</a></li>
+	            <li role="separator" class="divider"></li>
+	            <li><a href="#">Separated link</a></li>
+	          </ul>
+	        </li>
+	      </ul>
+
+  	  </div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+</nav>
+<div class = "container-fluid">
+	<h3>Tambah Jadwal Non-Sidang Dosen</h3>
+			<button type="button" class="btn btn-success">Simpan</button>
+			<button type="button" class="btn btn-success">Batal</button>
+		<table class="table table-striped">
+			<tr>
+				<th> Mahasiswa </th>
+				<td><select><option> Andi </option></select></td>
+			</tr>
+			<tr>
+				<th>Tanggal</th>
+				<td>19-11-2016</td>
+			</tr>
+			<tr>
+				<th>Jam Mulai</th>
+				<td>10:30</td>
+			</tr>
+			<tr>
+				<th>Jam Selesai</th>
+				<td>12:00</td>
+			</tr>
+			<tr>
+				<th>Ruangan</th>
+				<td>2.2301</td>
+			</tr>
+			<tr>
+				<th>Kegiatan Berulang</th>
+				<td><input type="radio"> Harian<br>
+				<input type="radio"> Mingguan<br>
+				<input type="radio"> Bulanan<br></td>
+			</tr>
+			<tr>
+				<th>Keterangan</th>
+				<td>Kunjungan riset ke Australia</td>
+			</tr>
+		</table>
+</div>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
