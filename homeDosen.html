@@ -1,0 +1,121 @@
+<html>
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrapLidya.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title> Home </title>
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="homeDosen.html">SISidang</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Tambah Peserta MKS</a></li>
+        <li><a href="sidangDosen.html"> Lihat Jadwal Sidang</a></li>
+        <li><a href="#"> Buat Jadwal Non-Sidang Dosen</a></li>
+        <li><a href="#"> Lihat Daftar MKS</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Dosen <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+
+<h2>Agenda</h2>
+    <p class="lead">
+        This agenda viewer will let you see multiple events cleanly!
+    </p>
+    
+    <div class="alert alert-warning">
+        <h4>Jadwal Sidang Mahasiswa</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum turpis dui, a aliquam est facilisis ullamcorper. Proin eu urna magna. Donec sagittis tempor nibh. Morbi nisi lorem, blandit eu est at, egestas dignissim sapien. Nam vel libero consectetur, fermentum risus in, fermentum sem. Aenean pulvinar tristique eros, gravida posuere lectus malesuada eget. Sed laoreet nibh ut justo efficitur lacinia. Aenean non ex sapien.</p>
+    </div>
+
+    <hr />
+
+    <div class="agenda">
+        <div class="table-responsive">
+            <table class="table table-condensed table-bordered">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Event</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Single event in a single day -->
+                    <tr>
+                        <td class="agenda-date" class="active" rowspan="1">
+                            <div class="dayofmonth">17</div>
+                            <div class="dayofweek">Senin</div>
+                            <div class="shortdate text-muted">November, 2016</div>
+                        </td>
+                        <td class="agenda-time">
+                            09.00 - 10.00 AM
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                <i class="glyphicon glyphicon-repeat text-muted" title="Repeating event"></i> 
+                                Sidang Andi
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <!-- Multiple events in a single day (note the rowspan) -->
+                    <tr>
+                        <td class="agenda-date" class="active" rowspan="3">
+                            <div class="dayofmonth">19</div>
+                            <div class="dayofweek">Rabu</div>
+                            <div class="shortdate text-muted">November, 2016</div>
+                        </td>
+                        <td class="agenda-time">
+                            8:00 - 9:00 AM 
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                Sidang Budi
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="agenda-time">
+                            10:15 AM - 12:00 PM 
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                Sidang Dora
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
